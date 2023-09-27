@@ -1,0 +1,27 @@
+{
+  "name": "ipr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "singleton": "npx nodemon --exec npx ts-node code/patterns/singleton.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayamee/IPR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayamee/IPR/issues"
+  },
+  "homepage": "https://github.com/Mayamee/IPR#readme",
+  "volta": {
+    "node": "18.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.0"
+  }
+}
