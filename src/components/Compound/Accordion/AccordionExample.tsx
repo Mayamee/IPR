@@ -1,19 +1,19 @@
-import { Accordion, AccordionItem } from "./Accordion";
+import { Accordion } from "./Accordion";
 
 export const AccordionExample = () => {
   return (
-    <Accordion>
-      <AccordionItem title="Item 1">
+    <Accordion.Container>
+      <Accordion.Item title="Item 1">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
           eveniet!
         </p>
-      </AccordionItem>
-      <AccordionItem title="Item 2">
+      </Accordion.Item>
+      <Accordion.Item title="Item 2">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, rem!
         </p>
-      </AccordionItem>
-    </Accordion>
+      </Accordion.Item>
+    </Accordion.Container>
   );
 };

@@ -5,7 +5,7 @@ type AccordionItemInteractionProps = {
   onClick: React.MouseEventHandler<HTMLDivElement>;
 };
 
-const Accordion = ({
+const AccordionContainer = ({
   children,
 }: {
   children: React.ReactElement<AccordionItemInteractionProps>[];
@@ -51,4 +51,9 @@ const AccordionItem = ({
   );
 };
 
-export { Accordion, AccordionItem };
+const Accordion = {
+  Item: AccordionItem,
+  Container: AccordionContainer,
+};
+
+export { Accordion };
