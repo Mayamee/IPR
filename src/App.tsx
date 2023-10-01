@@ -1,3 +1,11 @@
+import { ClockWidget } from "./components/RenderProps/Clock/ClockWidget";
+
 export const App = () => {
-	return <></>
+  return (
+    <>
+      <div id="container">
+        <ClockWidget />
+      </div>
+    </>
+  );
 };
